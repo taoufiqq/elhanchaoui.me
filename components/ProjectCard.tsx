@@ -56,11 +56,13 @@ const ProjectCard: FunctionComponent<{
             >
               <a
                 href={github_url}
+                aria-label="url github"
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
                 <AiFillGithub /> <span>Github</span>
               </a>
               <a
+              aria-label="url deployed"
                 href={deployed_url}
                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
               >
@@ -93,6 +95,7 @@ const ProjectCard: FunctionComponent<{
             </motion.div>
           </motion.div>
           <button
+          title="show details project"
             onClick={() => setShowDetail(null)}
             className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
           >

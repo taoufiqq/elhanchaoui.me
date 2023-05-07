@@ -43,6 +43,7 @@ const Sidebar = () => {
         style={{ marginLeft: "13%" }}
         href="/images/ELHANCHAOUI_Taoufiq.pdf"
         download="ELHANCHAOUI_Taoufiq.pdf"
+        aria-label="download resume"
       >
         <HiDownload className="w-4 h-4 mr-2" />
         Download Resume
@@ -50,13 +51,13 @@ const Sidebar = () => {
 
       {/*==== SOCIALS ICONS==== */}
       <div className="flex justify-around w-9/12 mx-auto text-green md:w-full">
-        <a href="https://github.com/taoufiqq">
+        <a href="https://github.com/taoufiqq" aria-label="Github">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/taoufiq-elhanchaoui/">
+        <a href="https://www.linkedin.com/in/taoufiq-elhanchaoui/" aria-label="LinkedIn">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://twitter.com/ElhanchaouiT">
+        <a href="https://twitter.com/ElhanchaouiT" aria-label="Twitter">
           <AiFillTwitterSquare className="w-8 h-8 cursor-pointer" />
         </a>
       </div>
@@ -74,12 +75,14 @@ const Sidebar = () => {
       </div>
       {/* ====Email Button==== */}
       <button
+      title="email me"
         className="w-6/12 px-5 py-2 my-2 font-semibold text-white rounded-full bg-gradient-to-r from-green to-blue-400"
         onClick={() => window.open("mailto:t.elhanchaoui@gmail.com")}
       >
         Email Me
       </button>
       <button
+      title="changeTheme"
         onClick={changeTheme}
         className="flex justify-center w-6/12 px-5 py-2 my-2 text-white rounded-full bg-gradient-to-r from-green to-blue-400"
         style={{ marginLeft: "25%" }}
