@@ -23,7 +23,7 @@ const index = () => {
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
-        <h6 className="my-3 text-xl font-bold tracking-wide">What I Offer</h6>
+        <p className="my-3 text-xl font-bold tracking-wide">What I Offer</p>
         <motion.div
           className="grid gap-6 lg:grid-cols-2 mt-14"
           variants={stagger}

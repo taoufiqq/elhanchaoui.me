@@ -10,6 +10,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
+        <title> Elhanchaoui.me Portfolio</title>
         <Head>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link
