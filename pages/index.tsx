@@ -25,7 +25,7 @@ const index = () => {
       >
         <p className="my-3 text-xl font-bold tracking-wide">What I Offer</p>
         <motion.div
-          className="grid gap-6 lg:grid-cols-2 mt-14"
+          className="grid gap-6 overflow-auto lg:grid-cols-2 mt-14"
           variants={stagger}
           initial="initial"
           animate="animate"
