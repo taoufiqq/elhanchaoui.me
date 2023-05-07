@@ -6,7 +6,7 @@ import { fadeInUp, routeAnimation, stagger } from "@/animation";
 const index = () => {
   return (
     <motion.div
-      className="flex flex-col flex-grow px-6 pt"
+      className="flex flex-col flex-grow px-6"
       variants={routeAnimation}
       initial="initial"
       animate="animate"
@@ -20,12 +20,12 @@ const index = () => {
         your website accessible to all users, regardless of thier device.
       </h4>
       <div
-        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
+        className="flex-grow p-4 mt-5 overflow-auto bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <p className="my-3 text-xl font-bold tracking-wide">What I Offer</p>
         <motion.div
-          className="grid gap-6 overflow-auto lg:grid-cols-2 mt-14"
+          className="grid gap-6 lg:grid-cols-2 mt-14"
           variants={stagger}
           initial="initial"
           animate="animate"
