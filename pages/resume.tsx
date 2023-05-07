@@ -10,7 +10,7 @@ const resume = () => {
       initial="initial"
       animate="animate"
       exit="exit"
-      style={{ height: "68vh" }}
+      // style={{ height: "68vh" }}
     >
       <div className="grid gap-6 md:grid-cols-2">
         <motion.div variants={fadeInUp} initial="initial" animate="animate">

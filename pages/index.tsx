@@ -11,7 +11,7 @@ const index = () => {
       initial="initial"
       animate="animate"
       exit="exit"
-      style={{ height: "68vh" }}
+      // style={{ height: "68vh" }}
     >
       <h4 className="my-3 font-medium">
         Hello, I am a <strong>EL HANCHAOUI Taoufiq</strong> and i am a <b> web & mobile developer</b>. I
