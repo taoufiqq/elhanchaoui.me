@@ -20,7 +20,7 @@ const index = () => {
         your website accessible to all users, regardless of thier device.
       </h4>
       <div
-        className="flex-grow p-4 mt-5 overflow-auto bg-gray-400 dark:bg-dark-100"
+        className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100"
         style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
       >
         <p className="my-3 text-xl font-bold tracking-wide">What I Offer</p>
