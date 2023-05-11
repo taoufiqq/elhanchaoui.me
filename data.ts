@@ -93,17 +93,8 @@ export const tools: ISkill[] = [
 ];
 
 export const projects: IProject[] = [
-  // {
-  //   name: "Tatbib.ma",
-  //   description: "Online Appointment Scheduling web application",
-  //   image_path: "",
-  //   deployed_url: "",
-  //   github_url: "",
-  //   category: ["react","node","express","mongo"],
-  //   key_techs: ["React", "Express.js", "Node.js", "MongoDB"],
-  // },
   {
-    id:1,
+    id: 1,
     name: "NodTrini1",
     description: "gym management website gym management website",
     image_path: "/images/NodTrini.jpg",
@@ -113,17 +104,17 @@ export const projects: IProject[] = [
     key_techs: ["React", "Bootstrap"],
   },
   {
-    id:2,
-    name: "NodTrin2",
-    description: "gym management website gym management website",
-    image_path: "/images/NodTrini.jpg",
-    deployed_url: "https://nod-trini.vercel.app/",
-    github_url: "https://github.com/taoufiqq/NodTrini",
-    category: ["node"],
-    key_techs: ["React", "Bootstrap"],
+    id: 2,
+    name: "Tatbib.ma",
+    description: "Online Appointment Scheduling web application",
+    image_path: "/images/tatbib.png",
+    deployed_url: "https://tatbib-v3.vercel.app/",
+    github_url: "https://github.com/taoufiqq/tatbib",
+    category: ["react", "next", "node", "express", "mongo"],
+    key_techs: ["React", "Next.js", "Express.js", "Node.js", "MongoDB"],
   },
   {
-    id:3,
+    id: 3,
     name: "NodTrini3",
     description: "gym management website gym management website",
     image_path: "/images/NodTrini.jpg",
@@ -133,7 +124,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Bootstrap"],
   },
   {
-    id:4,
+    id: 4,
     name: "NodTrini4",
     description: "gym management website gym management website",
     image_path: "/images/NodTrini.jpg",
@@ -143,7 +134,7 @@ export const projects: IProject[] = [
     key_techs: ["React", "Bootstrap"],
   },
   {
-    id:5,
+    id: 5,
     name: "NodTrini5",
     description: "gym management website gym management website",
     image_path: "/images/NodTrini.jpg",
@@ -152,7 +143,8 @@ export const projects: IProject[] = [
     category: ["react"],
     key_techs: ["React", "Bootstrap"],
   },
-  { id:6,
+  {
+    id: 6,
     name: "NodTrini6",
     description: "gym management website gym management website",
     image_path: "/images/NodTrini.jpg",
