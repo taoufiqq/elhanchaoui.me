@@ -100,7 +100,7 @@ export const projects: IProject[] = [
     image_path: "/images/NodTrini.jpg",
     deployed_url: "https://nod-trini.vercel.app/",
     github_url: "https://github.com/taoufiqq/NodTrini",
-    category: ["mongo"],
+    category: ["react"],
     key_techs: ["React", "Bootstrap"],
   },
   {
