@@ -8,7 +8,7 @@ import {
 import { GoLocation } from "react-icons/go";
 import { HiDownload } from "react-icons/hi";
 import { useTheme } from "next-themes";
-import me from "../public/images/me.png";
+import me from "../public/images/me_2.jpg";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
